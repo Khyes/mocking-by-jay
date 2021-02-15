@@ -281,7 +281,7 @@ HEADER
 
 .header.header--normal {
 	position: relative;
-	background: #490808;
+	background: #9e0000;
 }
 
 .header__logo {
@@ -539,14 +539,13 @@ HERO
 
 .model-img {
   height: 430px;
-  width: 100%;
+  width: auto;
   display: block;
   z-index: 0;
   -webkit-transition: 0.2s;
   -o-transition: 0.2s;
   transition: 0.2s;
   position: relative; 
-  vertical-align: center;
 }
 
  @media (prefers-reduced-motion: reduce) {
@@ -686,7 +685,6 @@ HERO
                 .box span i {
                     font-size: 20px;
                 }
-
                 .artist {
                     margin-bottom: 30px;
                 }
