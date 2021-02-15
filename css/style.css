@@ -831,6 +831,200 @@ HERO
 	text-align: center;
 }
 
+
+/*---------------------------------------
+  MAP
+-----------------------------------------*/
+
+.map {
+	height: 585px;
+	margin-top: 0px;
+}
+
+.map iframe {
+	width: 100%;
+}
+
+
+/*---------------------------------------
+  CONTACT
+-----------------------------------------*/
+
+.contact {
+	padding-top: 70px;
+	padding-bottom: 50px;
+}
+
+.contact__address .section-title {
+	margin-bottom: 10px;
+}
+
+.contact__address .section-title h2 {
+	text-transform: none;
+}
+
+.contact__address p {
+	margin-bottom: 34px;
+}
+
+.contact__address ul li {
+	list-style: none;
+	padding-left: 100px;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+.contact__address ul li:last-child {
+	margin-bottom: 0;
+}
+
+.contact__address ul li i {
+	font-size: 30px;
+	height: 70px;
+	width: 70px;
+	background: #f5f5f5;
+	border-radius: 50%;
+	line-height: 70px;
+	text-align: center;
+	color: var(--main-red-color);
+	position: absolute;
+	left: 0;
+	top: -4px;
+}
+
+.contact__address ul li h5 {
+	font-size: 20px;
+	color: #111111;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.contact__address ul li p {
+	margin-bottom: 0;
+}
+
+.contact__address ul li span {
+	font-size: 15px;
+	color: #111111;
+	display: inline-block;
+	margin-right: 25px;
+	position: relative;
+}
+
+.contact__address ul li span:after {
+	position: absolute;
+	right: -20px;
+	top: -1px;
+	content: ".";
+	font-size: 39px;
+	line-height: 0;
+	border-radius: 50%;
+}
+
+
+.contact__address ul li span:last-child {
+	margin-right: 0;
+}
+
+.contact__address ul li span:last-child:after {
+	display: none;
+}
+
+.contact__form .section-title {
+	margin-bottom: 10px;
+}
+
+.contact__form .section-title h2 {
+	text-transform: none;
+}
+
+.contact__form p {
+	margin-bottom: 34px;
+}
+
+.blog__details__form form .input__list,
+.contact__form form .input__list {
+	margin-right: -20px;
+	overflow: hidden;
+}
+
+.blog__details__form form .input__list input,
+.contact__form form .input__list input {
+	height: 50px;
+	font-size: 13px;
+	color: #666666;
+	padding-left: 20px;
+	border: 1px solid #e1e1e1;
+	width: calc(33.33% - 20px);
+	margin-bottom: 20px;
+	margin-right: 16px;
+}
+
+.blog__details__form form .input__list input::-webkit-input-placeholder,
+.contact__form form .input__list input::-webkit-input-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form .input__list input::-moz-placeholder,
+.contact__form form .input__list input::-moz-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form .input__list input:-ms-input-placeholder,
+.contact__form form .input__list input:-ms-input-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form .input__list input::-ms-input-placeholder,
+.contact__form form .input__list input::-ms-input-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form .input__list input::placeholder,
+.contact__form form .input__list input::placeholder {
+	color: #666666;
+}
+
+.blog__details__form form textarea,
+.contact__form form textarea {
+	height: 120px;
+	font-size: 13px;
+	color: #666666;
+	padding-left: 20px;
+	padding-top: 12px;
+	border: 1px solid #e1e1e1;
+	width: 100%;
+	margin-bottom: 14px;
+	resize: none;
+}
+
+.blog__details__form form textarea::-webkit-input-placeholder,
+.contact__form form textarea::-webkit-input-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form textarea::-moz-placeholder,
+.contact__form form textarea::-moz-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form textarea:-ms-input-placeholder,
+.contact__form form textarea:-ms-input-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form textarea::-ms-input-placeholder,
+.contact__form form textarea::-ms-input-placeholder {
+	color: #666666;
+}
+
+.blog__details__form form textarea::placeholder,
+.contact__form form textarea::placeholder {
+	color: #666666;
+}
+
+
+
 /*---------------------------------------
   FOOTER
 -----------------------------------------*/
