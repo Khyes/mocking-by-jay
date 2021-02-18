@@ -44,6 +44,21 @@
         $(this).html(event.strftime("<div class='countdown__item'><span>%D</span> <p>Days</p> </div>" + "<div class='countdown__item'><span>%H</span> <p>Hours</p> </div>" + "<div class='countdown__item'><span>%M</span> <p>Minutes</p> </div>" + "<div class='countdown__item'><span>%S</span> <p>Seconds</p> </div>"));
     });
 
+    /*------------------
+		Barfiller
+	--------------------*/
+    $('#bar1').barfiller({
+        barColor: "#ffffff",
+    });
+
+    $('#bar2').barfiller({
+        barColor: "#ffffff",
+    });
+
+    $('#bar3').barfiller({
+        barColor: "#ffffff",
+    });
+
     /*-------------------
 		Nice Scroll
 	--------------------- */
@@ -55,5 +70,6 @@
         autohidemode: false,
         horizrailenabled: false
     });
+    
 
 })(jQuery);

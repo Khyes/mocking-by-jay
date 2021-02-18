@@ -2,10 +2,224 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Mocking by Jay">
+    <meta name="keywords" content="mocking by jay, music, studio, rap, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Book a Studio Session - Mocking by Jay</title>
+    <link rel="icon" href="favicon.ico"/>
+
+     <!-- FONTS -->
+     <link rel="preconnect" href="https://fonts.gstatic.com"> 
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&display=swap" rel="stylesheet">
+ 
+     <!--CSS STYLES-->
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+     <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+     <link rel="stylesheet" href="css/nowfont.css" type="text/css">
+     <link rel="stylesheet" href="css/rockville.css" type="text/css">
+     <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+     <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+     <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+     <link rel="stylesheet" href="css/style.css" type="text/css">
+     <link rel="stylesheet" href="css/hover.css" type="text/css">
 </head>
 <body>
+
+    <!-- PRELODER -->
+    <div id="preloder">
+        <div class="loader"><i class="fas fa-circle"></i></div>
+    </div>
+    
+    <!-- HEADER BEGIN -->
+    <header class="header header--normal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="img/logowhite.svg" alt="Logo"></a>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li><a href="./index.html">Home</a></li>
+                                <li><a href="./artists.html">Our Artists</a></li>
+                                <li><a href="./shows.html">Shows</a></li>
+                                <li class="active"><a href="./studio.html">Book a Studio Session</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header__right__social">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-instagram"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- HEADER END -->
+
+    <!-- BREADCRUMB BEGIN -->
+    <div class="breadcrumb-option">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb__links">
+                        <a href="/index.html"><i class="fa fa-home"></i> Home</a>
+                        <span>Book a Studio Session</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- BREADCRUMB END -->
+
+    <!-- BOOK START -->
+    <section class="blog spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="section-title">
+                        <h2>Our Studio</h2>
+                        <h1>Book</h1>
+                    </div>
+                    <div class="blog__large">
+                        <div class="blog__large__pic set-bg" data-setbg="img/large-item.jpg">
+                           
+                        </div>
+                        <div class="blog__large__text">
+                            <span>Our Music Studio</span>
+                            <h4>Donec egestas elit vitae nibh commodo malesuada. Curabitur.</h4>
+                            <p>Lorem ipsum dolor consectetur adipiscing eiusmod tempor incididunt ut labore et dolore
+                            </p>
+                            <div class="blog__large__widget">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul>
+                                            <li>Singers</li>
+                                            <li>Guitarists</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6">
+                                        <ul class="right__widget">
+                                            <li>Pianists</li>
+                                            <li>50+ Instruments</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-4">
+                    <div class="blog__sidebar">
+                        <div class="blog__sidebar__item">
+                            <div class="blog__sidebar__title">
+                                <h4>Booking Your Studio Session</h4>
+                            </div>
+                            <p>Ipsum dolor sit amet, adipiscing elit, sed eiusmod </p>
+                            <form action="#">
+                                <div class="check-date">
+                                    <input type="date" class="date-input" id="date-in" placeholder="Date YYYY/MM/JJ" name="datechk" class="datechk" required>
+                                    <i class="far fa-calendar"></i>
+                                </div>
+                                <input type="text" placeholder="Email" required>
+                                <button type="submit" class="site-btn hvr-sweep-to-left">Book</button>
+                            </form>
+                        </div>
+                        <div class="blog__sidebar__item bottom">
+                            <div class="blog__sidebar__title">
+                                <h4>Social media</h4>
+                            </div>
+                            <div class="blog__sidebar__social">
+                                <a href="#" class="hvr-pulse-grow"><i class="fa fa-facebook"></i></a>
+                                <a href="#" class="hvr-pulse-grow"><i class="fa fa-twitter"></i></a>
+                                <a href="#" class="hvr-pulse-grow"><i class="fa fa-instagram"></i></a>
+                                <a href="#" class="hvr-pulse-grow"><i class="fa fa-dribbble"></i></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BOOK END -->
+
+    <!-- FOOTER BEGIN -->
+   <footer class="footer footer--normal spad set-bg" data-setbg="img/footer-bg.png">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="footer__address">
+                    <ul>
+                        <li>
+                            <i class="fa fa-phone"></i>
+                            <p>Phone</p>
+                            <h6>1-123-124-7654</h6>
+                        </li>
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                            <p>Email</p>
+                            <h6>contact@mockingbyjay.com</h6>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1 col-md-6">
+                <div class="footer__social">
+                    <h2>Mocking by Jay</h2>
+                    <div class="footer__social__links">
+                        <a href="#" class="hvr-pulse-grow"><i class="fa fa-facebook "></i></a>
+                            <a href="#" class="hvr-pulse-grow"><i class="fa fa-twitter"></i></a>
+                            <a href="#" class="hvr-pulse-grow"><i class="fa fa-instagram"></i></a>
+                            <a href="#" class="hvr-pulse-grow"><i class="fa fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 offset-lg-1 col-md-6">
+                <div class="footer__newslatter">
+                    <h4>Stay With me</h4>
+                    <form action="#">
+                        <input type="text" placeholder="Email">
+                        <button type="submit"><i class="fa fa-send-o"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright__text">
+            <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved</p>
+        </div>
+    </div>
+</footer>
+<!-- FOOTER END -->
+
+
+
+    <!-- JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/jquery.jplayer.min.js"></script>
+    <script src="js/jplayerInit.js"></script>
     
 </body>
 </html>
